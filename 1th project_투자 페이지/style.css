@@ -1,0 +1,78 @@
+#메인메뉴 {
+ margin: 0;
+ padding: 0 1em;
+ background: #000000;
+ height: 3em;
+ list-style: none;
+}
+
+#메인메뉴 > li {
+ float: left;
+ height: 100%;
+ margin-right: 0.5em;
+ padding: 0 em;
+}
+
+#메인메뉴 > li > a {
+ color: #ffffff;
+ text-decoration: none;
+ line-height: 3.14286;
+ letter-spacing: -.01em;
+ z-index: 1;
+ display: inline-block;
+ height: 44px;
+ opacity: 1;
+ font-size: 14px;
+ font-family: 'Nanum Gothic', sans-serif;
+}
+
+#메인메뉴 > li > a:hover {
+ color: #b4b4b4;
+ text-decoration: underline;
+}
+
+#메인메뉴 > li.sub {
+ position: relative;
+}
+
+#메인메뉴 > li.sub ul {
+ width: 10em;
+ margin: 0;
+ padding: 0.5em 0;
+ list-style: none;
+ background: #9e9e9e;
+ position: absolute;
+ top: -1000em;
+}
+
+#메인메뉴 > li.sub ul li {
+ width: 90%;
+ margin: 0 auto 0.3em auto;
+}
+
+#메인메뉴 > li.sub ul li a {
+ height: 100%;
+ display: block;
+ padding: 0.4em;
+ color: #030303;
+ font-weight: bold;
+ text-decoration: none;
+}
+
+#메인메뉴 > li.sub ul li a:hover {
+ background: #9e9e9e;
+ text-decoration: underline;
+}
+
+#메인메뉴 > li.sub:hover ul {
+ top: 3em;
+}
+#all {
+  background-color: #030303;
+}
+#logo {
+
+}
+#all-1 {
+  background-color: #111
+}

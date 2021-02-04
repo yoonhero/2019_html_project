@@ -1,0 +1,13 @@
+button {
+  background: blue;
+  padding: 10px;
+}
+.button{
+  font-family: sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
+.flex-box-rps img:hover{
+  box-shadow: 0px 10px 50px rgba(37, 50, 233, 1)
+}

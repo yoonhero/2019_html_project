@@ -1,0 +1,47 @@
+h1 {
+  margin-top: 230px;
+  text-align: center;
+  font-size: 90px;
+}
+h1 span:nth-child(1) {
+  color : #4285f4;
+}
+h1 span:nth-child(2) {
+  color : #ea4335;
+}
+h1 span:nth-child(3) {
+  color : #fbbc05;
+}
+h1 span:nth-child(4) {
+  color : #4285f4;
+}
+h1 span:nth-child(5) {
+  color : #34a853;
+}
+h1 span:nth-child(6) {
+  color : #ea4335;
+}
+.search-bar{
+  width:500px;
+}
+.button1{
+  width:100px;
+  margin: -20px -50px;
+  position:relative;
+  top:160px;
+  left:700px;
+}
+.button2{
+  width:100px;
+  margin: -20px -50px;
+  position:relative;
+  top:160px;
+  left: 800px;
+}
+.button3{
+  width:100px;
+  margin: -20px -50px;
+  position:relative;
+  top:160px;
+  left: 850px;
+}

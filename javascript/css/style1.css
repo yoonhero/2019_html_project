@@ -1,0 +1,32 @@
+td{
+  border: 5px dashed #81cfe0;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+  color: #89c4f4;
+}
+div{
+  color: #336e7b;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
+button{
+  border: 0;
+  width: 100px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  border:5px dotted #1e8bc3;
+  padding:0px;
+  background-color: #c5eff7;
+  color: #34495e;
+  font-weight: bold;
+  font-size: 20px;
+}

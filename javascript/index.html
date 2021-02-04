@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <button onclick='hello()'>age</button>
+  <h2 id="someText">what your age</h2>
+  <h2>바보 테스트</h2>
+  <button onclick='바보()'>바보 or 천재</button>
+  <button onclick='바보()'>바보 or 천재</button>
+  <button onclick='바보()'>바보 or 천재</button>
+  <button onclick='바보()'>바보 or 천재</button>
+  <button onclick='바보()'>바보 or 천재</button>
+  <button onclick='천재()'>바보 or 천재</button>
+  <button onclick='바보()'>바보 or 천재</button>
+  <button onclick='바보()'>바보 or 천재</button>
+  <button onclick='바보()'>바보 or 천재</button>
+  <button onclick='바보()'>바보 or 천재</button>
+  <button onclick='바보()'>바보 or 천재</button>
+
+  <h2>너의 여친 테스트</h2>
+  <button onclick='차임()'>너의 연예는</button>
+  <button onclick='차임()'>너의 연예는</button>
+  <button onclick='차임()'>너의 연예는</button>
+  <button onclick='연예()'>너의 연예는</button>
+  <button onclick='차임()'>너의 연예는</button>
+</body>
+  <script>
+    function hello(){
+      var age = prompt('what is your age?');
+      if (age % 1 == 0) {
+        if (age > 20) {
+          alert('어른이구나');
+          document.getElementById('someText').innerHTML = '너의 나이는' + age + '살이네';
+        }else if (age > 10) {
+          alert('청소년');
+          document.getElementById('someText').innerHTML = '너의 나이는' + age + '살이네';
+        }else if (age <= 10 & age > 5) {
+          alert('어린이');
+          document.getElementById('someText').innerHTML = '너의 나이는' + age + '살이네';
+        }else if (age <= 5 & age > 0) {
+          alert('영유아');
+          document.getElementById('someText').innerHTML = '너의 나이는' + age + '살이네';
+        }else if (age <= 0) {
+          alert('다른 숫자!');
+        }else {
+          alert('숫자 입력을 바랍니다.');
+        }
+      }else{
+        alert('소수 말고요');
+      }
+    }
+    function 바보(){
+      alert('너는 바보이다. ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ');
+    }
+    function 천재(){
+      alert('넌 천재이구나!!!!!')
+    }
+    function 연예(){
+      name = prompt('너의 이름은?');
+      girl = prompt('너의 여친은?');
+      alert(name + ' 아! ' + girl + ' 과 사랑해!')
+    }
+    function 차임(){
+      name = prompt('너의 이름은?');
+      girl = prompt('너의 여친은?');
+      alert(name + ' 아!' + girl + '에게 잘 차여!')
+    }
+  </script>
+</html>
